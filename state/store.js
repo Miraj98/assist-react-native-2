@@ -8,11 +8,7 @@ const persistConfig = {
     key: 'assist',
     storage,
     blacklist: [
-        'postRequestsState',
-        'isRequestSuccessful',
-        'isPosting',
-        'isFetching',
-        'fontLoaded',
+      "isFetching"
     ]
 }
 const persistedReducers = persistReducer(persistConfig, RootReducer)

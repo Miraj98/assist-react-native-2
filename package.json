@@ -1,5 +1,10 @@
 {
   "name": "Assist",
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  },
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -13,6 +18,7 @@
     "react-native-actionsheet": "^2.4.2",
     "react-native-fast-image": "^5.2.0",
     "react-native-gesture-handler": "^1.1.0",
+    "react-native-google-signin": "^2.0.0",
     "react-native-hyperlink": "^0.0.14",
     "react-native-linear-gradient": "^2.5.4",
     "react-native-link-preview": "^1.4.2",
